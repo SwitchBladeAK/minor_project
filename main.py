@@ -12,7 +12,7 @@ data.columns = data.columns.str.strip().str.replace(' ', '_')
 # Select features and target
 features = [
     'Age', 
-    'Gender_Num', 
+    'Gender_Num',
     'Color_Num', 
     'Transparency_Num', 
     'Glucose_Num', 
